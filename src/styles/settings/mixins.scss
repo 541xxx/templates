@@ -1,0 +1,3 @@
+@mixin dotted-border($direction,$articleSubContentBdrColor){
+  border-#{$direction}: 1px dotted $articleSubContentBdrColor; 
+}
